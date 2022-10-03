@@ -1,0 +1,489 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    color: #000;
+    transition: all .3s;
+}
+
+ul li a:hover {
+    color: orangered;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    margin: auto;
+}
+
+.input {
+    border-radius: 20px;
+    border: 1px solid orangered;
+}
+
+.input:hover {
+    border: 1px solid orangered;
+}
+
+span {
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.803);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span:hover {
+    color: orangered;
+}
+
+#basic-addon2 {
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 1px solid orangered;
+    color: #fff;
+    cursor: pointer;
+    padding: 0 30px;
+    background-color: orangered;
+    transition: all 0.2s;
+}
+
+#icon {
+
+    padding: 10px;
+}
+
+.input::focus {
+    border: 2px solid orangered;
+}
+
+#basic-addon2:hover {
+    background-color: rgb(209, 60, 6);
+}
+
+.icon-small i {
+    float: left;
+    font-size: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.icon-small p {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.header-2 {
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.17);
+}
+
+.header-2 i {
+    line-height: 40px;
+
+}
+
+#i {
+    color: orangered;
+}
+.p p{
+    cursor: pointer;
+}
+.p p:hover{
+    color: orangered;
+}
+
+.header-3 {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 255, 217, 0.046);
+}
+
+.header-3 p {
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.596);
+}
+
+.box-1 {
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.text-1 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.227);
+}
+
+.text-1 p {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.contaner-1 {
+    width: 95%;
+    height: 450px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.227);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.116);
+
+}
+
+.img-1 {
+    width: 100%;
+    height: 40px;
+    margin-top: 3px;
+    position: relative;
+    transition: all 0.1s;
+
+}
+
+.img-1:hover {
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.126);
+
+}
+
+.img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-top: 1px;
+    background-color: rgba(0, 0, 0, 0.159);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-1 p {
+    position: absolute;
+    top: 0;
+    right: 60px;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.img-1 i {
+    position: absolute;
+    top: 14px;
+    right: 10px;
+}
+
+.img-1 p:hover {
+    color: orangered;
+
+}
+.carousel-inner{
+    width: 100%;
+    height: 400px ;
+    margin-top: 30px ;
+}
+.carousel-item img{
+    width: 100%;
+    height:360px;
+}
+.text-2 button{
+  width: 90%;
+  height: 35px;
+  border-radius: 20px ;
+}
+.text-2 h4{
+    margin-top: 10px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.688);
+}
+.box-1{
+    border-radius: 10px;
+    width: 100%;
+    height: 90px ;
+}
+.img-2{
+    width: 60px;
+    height: 80px;
+}
+.img-2 img{
+    width: 100%;
+}
+.img-2 img:hover{
+    transform: scale(1.1);
+}
+.contaner-2{
+    width: 95%;
+    margin: auto;
+    margin-top: 20px ;
+}
+.box{
+    height: 200px ;
+    border-radius: 10px ;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.17);
+}
+.img-3{
+    width: 110px ;
+    height: 110px ;
+    box-shadow: 1px 1px 1px 1px  rgba(0, 0, 0, 0.17);
+}
+.img-3 img {
+    width: 100%;
+}
+.img-3:hover{
+    transform: scale(1.02);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.17);
+}
+.price{
+    width:110px;
+    height: 40px;
+    font-size: 12px ;
+    margin-top: 4px ;
+    font-weight: bold;
+}
+.contaner-3{
+    width: 95%;
+    margin: auto;
+    margin-top: 40px ;
+}
+.box-2{
+    height: 320px ;
+    border-radius: 10px ;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.17);
+}
+.img-4{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px ;
+    margin-left: 10px ;
+    background-color: rgba(0, 0, 0, 0.098);
+}
+.img-5 img:hover{
+    transform: scale(1.02);
+    box-shadow: 1px 1px #000;
+}
+.underline{
+    width: 100%;
+    height: 8px;
+    border-radius: 15px ;
+    background-color: rgba(0, 0, 0, 0.17);
+}
+.img-6{
+    width: 100%;
+    height: 305px;
+    background-image: url(https://img.alicdn.com/tfs/TB1J5jev7voK1RjSZPfXXXPKFXa-300-320.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    position: relative;
+}
+.img-6 img{
+    object-fit: cover;
+ 
+}
+.img-6 h4{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color: #fff;
+}
+.img-6 button{
+    position: absolute;
+    top: 250px;
+    left: 5%;
+    width: 120px;
+    height: 35px ;
+    background-color: #fff;
+    border-radius: 10px ;
+    border: none; 
+}
+.text-6{
+    height: 150px ;
+    position: relative;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.17) ;
+    margin-left: 1px;
+}
+.pic{
+    position: absolute;
+    right: 10%;
+}
+.pic img {
+    transition: all 0.2s ;
+}
+.pic img:hover{
+  transform: scale(1.03);
+}
+.contaner-4{
+    width: 100%;
+    height: 300px ;
+    margin-top: 20px ;
+}
+.underline-2{
+    width: 100%;
+    height: 5px;
+    border-radius: 10px ;
+    margin-top: 15px ;
+    background-color: rgba(0, 0, 0, 0.17);
+}
+.box-4{
+    height: 240px ;
+    background-color: #fff;
+    margin-left: 5px ;
+    box-shadow: 1px 1px 1px  rgba(0, 0, 0, 0.452) ;
+    border-radius: 10px ;
+    font-weight: bold;
+}
+.box-4 img {
+  margin-top: 30px ;
+  transition: 0.5s;
+}
+.box-4 img:hover{
+  transform: scale(1.02);
+}
+.box-4 button{
+    width: 120px;
+    height: 40px ;
+    margin-top: 10px ;
+    border-radius: 10px ;
+    border: none ;
+    background-color: orangered;
+    color: #fff;
+}
+.box-5{
+    height: 350px ;
+    border: 1px solid ;
+    position: relative;
+}
+.box-5 h4{
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 20px ;
+}
+.box-5 p{
+    color: #fff;
+    position: absolute;
+    top: 140px;
+    left: 20px ;
+    word-spacing: 20px ;
+}
+.box-5 button{
+    position: absolute;
+    top: 280px;
+    left: 50px ;
+    width: 100px ;
+    height: 35px ;
+    border-radius: 10px ;
+    background-color: orangered;
+    border: none;
+    color: #fff;
+}
+.box-6{
+    height: 350px ;
+    padding: 15px ;
+    border: 1px solid ;
+}
+.box-6 h3{
+    margin-top: 30px ;
+}
+.box-6 input{
+    padding: 10px ;
+    width: 80%;
+    height: 40px;
+}
+.card{
+    font-weight: bold ;
+    overflow: hidden;
+    line-height: 18px ;
+    font-size: 12px ;
+    position: relative;
+    transition: all 0.3s;
+}
+.card:hover{
+    box-shadow: 1px 1px 20px 0px rgba(86, 85, 85, 0.216);
+}
+
+.slider{
+ width: 18rem;
+height: 190px ;
+ color: #fff;
+ position: absolute;
+ top: 0px;
+ left : 0px ;
+ font-size: 15px ;
+ background-color: rgba(0, 0, 0, 0.811);
+ padding: 50px;
+ transition: all 0.3s;
+ opacity: 0;
+ 
+}
+.slider:hover{
+    opacity:1;
+}
+.search-container input{
+    width: 300px ;
+    height: 40px ;
+    font-size: 20px ;
+    padding: 10px ;
+    position: relative;
+}
+.search-container button{
+    width: 90px ;
+    height: 40px ;
+    background: none;
+    border: 1px solid ;
+    position: absolute;
+    top: 0;
+}
+.search-container i{
+    font-size: 20px ;
+}
+.boder-1{
+    border-bottom: 1px solid #000;
+    padding: 10px ;
+    line-height: 10px ;
+    font-size: 15px ;
+}
+.boder-1 p:hover{
+    text-decoration: underline;
+}
+.item{
+    height: 1000px ;
+}
+.col_4 i{
+    margin-left: 10px ;
+}
+.col_4 i:hover{
+    transform: scale(2 );
+}
+.col_12 p{
+  line-height: 25px ;
+  font-size: 12px ;
+  font-weight:500 ;
+} 
+.col_12 p:hover{
+    text-decoration: underline;
+}
+.col_12 h6 {
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.col_12 h6:hover{
+    color: Red;
+}
